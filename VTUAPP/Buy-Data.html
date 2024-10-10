@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Data</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="Buy-Data.css">
+
+        <!-- <nav class="nav-bar">
+        <i class="la la-bell"></i>
+       <div class="user-profile">A</div>
+   </nav> -->
+</head>
+<body>
+
+
+<div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-tertiary border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">General</div>
+            <div class="list-group list-group-flush bg-tertiary">
+                <a href="fintech app.html" class="list-group-item list-group-item-action bg-tertiary">Dashboard</a>
+                <a href="Buy-Data.html" class="list-group-item list-group-item-action bg-tertiary">Buy Data</a>
+                <a href="Airtime-page.html" class="list-group-item list-group-item-action bg-tertiary">Buy Airtime</a>
+                <a href="#" class="list-group-item list-group-item-action bg-tertiary">Add Money</a>
+                <a href="#" class="list-group-item list-group-item-action bg-tertiary">Transfer</a>
+            </div>
+            
+            <div class="sidebar-heading">Managements</div>
+                <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action bg-tertiary">Transactions</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-tertiary">Setting</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-tertiary">Log Out</a>
+                </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="shadow p-1 mb-5 bg-body-tertiary rounded">
+            <nav class="navbar navbar-expand-lg navbar-light bg-tertiary">
+                <div class="container-fluid">
+                    <!-- Left Side: Menu Toggle Button -->
+                    <button class="btn btn-none" id="menu-toggle">
+                        <i class="las la-bars"></i>
+                    </button>
+    
+                    <!-- Right Side: Bell Icon and User Profile -->
+                    <div class="d-flex ms-auto align-items-center gap-2">
+                        <i class="la la-bell"></i>
+                        <div class="user-profile">A</div>
+                    </div>
+                </div>
+            </nav>
+        </div> <!--Navigation Bar-->
+        <!--Sub-page content-->
+        <p class="buy-data-head"><h3>Buy Data</h3></p>
+        <form action="">
+            <fieldset>
+                <legend>Network</legend>
+                <select class="form-select form-select-sm form-select-mt-6" aria-label=".form-select-sm example">
+                    <option selected>Select Network</option>
+                    <option value="MTN">MTN</option>
+                    <option value="Airtel">Airtel</option>
+                    <option value="Glo">Glo</option>
+                    <option value="9mobile">9mobile</option>
+                </select>
+                <br>
+                <legend>Type</legend>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Data Type</option>
+                    <option value="Gifting">Gifting</option>
+                    <option value="Corperate Gifting">Corperate Gifting</option>
+                    <option value="SME">SME</option>
+                </select>
+                <br>
+                <legend class="">Plan</legend>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Select Plan</option>
+                    <option value="SME 1gb  &#8358 200">SME 1gb &#8358 200</option>
+                    <option value="SME 2gb &#8358 400">SME 2gb &#8358 400</option>
+                    <option value="SME 3gb &#8358 600">SME 3gb &#8358 600</option>
+                    <option value="Corporate Gifting 2gb &#8358 400">Corporate Gifting 2gb &#8358 400</option>
+                    <option value="Corporate 3gb &#8358 550">Corporate 3gb &#8358 550</option>
+                </select>
+                <br>
+                <legend>Phone Number</legend>
+                <input type="number"  class="form-control" placeholder="Phone Number">
+                <br>
+                <legend>Amount</legend>
+                <input type="text" class="form-control" placeholder="Amount">
+            </fieldset>
+            <button class="btn btn-primary" type="submit">Button</button>
+        </form>
+    </div>
+</div>    
+        
+        
+        
+            
+            
+            
+        
+
+   
+
+    
+
+      
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<!-- Custom JS --> 
+ 
+<script>
+  // Toggle the sidebar menu
+    $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+    });
+
+</script>
+</body>
+</html>
+
+
+        
+        
+        
+        

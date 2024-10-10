@@ -1,0 +1,95 @@
+* {
+    margin-top: 5px;
+    /* margin-right: 10px; */
+    margin-left: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+} */
+
+.user-profile {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+
+
+.la:hover {
+    color: blue;
+    cursor: pointer;
+    /* font-size: 25px; */
+    /* transition: 0.3s; */
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+}
+
+
+
+legend{
+    font-size: medium;
+    margin-bottom: 8px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+/* Custom CSS for Sidebar */
+.sidebar-heading {
+    font-weight: bold;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    width: 250px;
+    margin-left: -250px;
+    transition: margin 0.25s ease-out;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -250px;
+    }
+}
+
+.list-group-item:hover {
+    color: blue;
+    /* width: 10px; */
+    /* height: 1px; */
+    border-bottom: blue 1px solid;
+    /* background-color: lightcyan; */
+}

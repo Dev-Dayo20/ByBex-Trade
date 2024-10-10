@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px 250px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 10px;
+    height: 6rem;
+    
+}
+
+.first-container-header>p{
+    align-self: last baseline;
+}
+
+
+
+.sub-header-1 {
+    display: flex;
+    align-items: center;   
+    gap: 1rem;
+    font-size: 20px;
+    margin-bottom: 13px;
+    
+}
+
+.sub-header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-top: 15px;
+    
+}
+
+.sub-header-2>.spend {
+    padding: 7px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+.sub-header-2>.save {
+    padding: 7px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+.sub-header-2>.invest {
+    padding: 7px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+.sub-header-2>.borrow {
+    padding: 7px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+
+
+
+#available-balance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.balance {
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#available-balance>i {
+    font-size: 30px;
+}
+
+#wallet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 5px;
+    
+
+
+}
+
+#wallet>.Transfer{
+    padding: 7px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#wallet>.add-money{
+    padding: 7px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#wallet>.Transfer:hover{
+    padding: 7px;
+    background-color: rgb(3, 48, 66);
+    border: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+#wallet>.add-money:hover{
+    padding: 7px;
+    background-color: rgb(3, 48, 66);
+    border: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.access{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    gap: 4rem;
+    font-size: 24px;
+}
+
+#edit {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    
+}
+
+#edit:hover{
+    background-color: rgb(3, 48, 66);;
+
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-bottom: 50%;
+}
+
+.grid-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 16px;
+}
+
+.cards{
+
+    /*box-shadow: 1px 1px 5px 1px black;*/
+    border: 3px solid blue;
+    padding: 7px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    height: 80px;
+    width: 90px;
+    margin-top: 15px;
+}
+
+.cards:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+
+.la {
+    font-size: larger;
+}
+
+.cards>p{
+    font-size: small;
+    font-weight: bold;
+}
+
+#airtime-link {
+    text-decoration: none;
+    color: black;
+}
+
+#buy-data-link {
+    text-decoration: none;
+    color: black;
+}
+#airtime2cash-link {
+    text-decoration: none;
+    color: black;
+}
+#electricity-bill-link {
+    text-decoration: none;
+    color: black;
+}
+#cable {
+    text-decoration: none;
+    color: black;
+}
+#bonus-link {
+    text-decoration: none;
+    color: black;
+}
